@@ -1,63 +1,52 @@
-Python Mini Projects Collection
+<h2>Python Mini Projects Collection</h2>
 
 Welcome to my Python Mini Projects repository! This collection demonstrates proficiency in object-oriented programming (OOP), magic methods, and practical problem solving using Python. These projects highlight clean code practices, encapsulation, and interactive user experiences.
 
-ATM Simulator
+<h3>ATM Simulator</h3>
 
-Description:
+<h2>Description:
 A menu-driven ATM simulation using Python classes.
 It allows users to:
 
-Create a secure PIN
+-Create a secure PIN
+-Deposit and withdraw cash
+-Check account balance
 
-Deposit and withdraw cash
+<h2>Features:
 
-Check account balance
+-Unique serial numbers for each ATM instance
+-Encapsulation: private PIN and balance
+-Menu-driven user interface for ease of use
+-Input validation for PIN and transactions
 
-Features:
+<h3>Coordinate Geometry Tool</h3>
 
-Unique serial numbers for each ATM instance
-
-Encapsulation: private PIN and balance
-
-Menu-driven user interface for ease of use
-
-Input validation for PIN and transactions
-
-Coordinate Geometry Tool
-
-Description:
+<h2>Description</h2>:
 A Python class to represent points in a 2D plane and calculate:
 
-Slope between two points
+-Slope between two points
+-Distance between two points
+-Equation of the line connecting two points
 
-Distance between two points
+<h2>Features</h2>:
 
-Equation of the line connecting two points
+-Object-oriented design
+-Handles vertical lines (slope is indeterminate)
+-Calculates Euclidean distance
 
-Features:
+->Outputs line equation in standard form
 
-Object-oriented design
+<h3>Fraction Class with Magic Methods</h3>
 
-Handles vertical lines (slope is indeterminate)
-
-Calculates Euclidean distance
-
-Outputs line equation in standard form
-
-Fraction Class with Magic Methods
-
-Description:
+<h2>Description</h2>:
 A Fraction class demonstrating operator overloading using Python magic methods (__add__, __sub__, __mul__, __truediv__).
 It supports arithmetic operations on fractions directly using +, -, *, and /.
 
-Features:
+<h2>Features</h2>:
 
-Overloaded operators for addition, subtraction, multiplication, and division
-
-String representation (__str__) for clean output
-
-Can be extended to support fraction simplification
+-Overloaded operators for addition, subtraction, multiplication, and division
+-String representation (__str__) for clean output
+-Can be extended to support fraction simplification
 
 Skills Demonstrated
 
