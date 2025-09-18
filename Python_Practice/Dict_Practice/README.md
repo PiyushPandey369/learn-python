@@ -1,6 +1,6 @@
 # Dict_practice Programs in Python
 
-This folder contains Python programs related to **Dict_Practice**.
+This folder contains Python programs focused on practicing dictionary operations.
 
 ## Programs
 - `dict_of_student.py`
@@ -8,4 +8,7 @@ This folder contains Python programs related to **Dict_Practice**.
 - `handle_duplicates_key.py`
 
 ## Topics Covered
-- Add explanation here manually
+- Creating and updating dictionaries  
+- Accessing and deleting key-value pairs  
+- Iterating through dictionaries  
+- Filtering data from dictionaries
