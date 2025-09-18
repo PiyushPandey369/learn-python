@@ -28,8 +28,7 @@ A Python class to represent points in a 2D plane and calculate:<br>
 -Distance between two points<br>
 -Equation of the line connecting two points<br>
 
-<h4>Features</h4>:
-
+<h4>Features</h4>
 -Object-oriented design<br>
 -Handles vertical lines (slope is indeterminate)<br>
 -Calculates Euclidean distance<br>
