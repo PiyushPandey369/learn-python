@@ -1,6 +1,6 @@
 # Question_practice_extra Programs in Python
 
-This folder contains Python programs related to **Question_Practice_extra**.
+This folder contains extra coding exercises to practice Python problem-solving skills.
 
 ## Programs
 - `qn1.py`
@@ -16,4 +16,7 @@ This folder contains Python programs related to **Question_Practice_extra**.
 - `qn9.py`
 
 ## Topics Covered
-- Add explanation here manually
+- Problem-solving with Python  
+- Combining data types  
+- Conditional logic and loops  
+- Function design and usage

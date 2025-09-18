@@ -1,6 +1,6 @@
 # Python_module Programs in Python
 
-This folder contains Python programs related to **Python_Module**.
+This folder contains programs that demonstrate the use of Python modules and libraries.
 
 ## Programs
 - `json_emp.py`
@@ -11,4 +11,6 @@ This folder contains Python programs related to **Python_Module**.
 - `speech_recognition_emp.py`
 
 ## Topics Covered
-- Add explanation here manually
+- Importing and using modules  
+- Built-in Python libraries  
+- Writing and importing custom modules

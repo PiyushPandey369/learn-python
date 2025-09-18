@@ -1,6 +1,6 @@
 # File_practice Programs in Python
 
-This folder contains Python programs related to **File_Practice**.
+This folder contains programs to practice file handling in Python.
 
 ## Programs
 - `count_words.py`
@@ -10,4 +10,6 @@ This folder contains Python programs related to **File_Practice**.
 - `writing_reading_two_files.py`
 
 ## Topics Covered
-- Add explanation here manually
+- File opening modes: `r`, `w`, `a`  
+- Reading and writing files  
+- Basic file operations like rename, delete, and copy

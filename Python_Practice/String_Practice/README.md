@@ -1,6 +1,6 @@
 # String_practice Programs in Python
 
-This folder contains Python programs related to **String_Practice**.
+This folder contains Python exercises for practicing string manipulation.
 
 ## Programs
 - `check_anagrams.py`
@@ -9,4 +9,7 @@ This folder contains Python programs related to **String_Practice**.
 - `number_of_words_in_string.py`
 
 ## Topics Covered
-- Add explanation here manually
+- String operations and methods  
+- Formatting and interpolation  
+- Searching and replacing text  
+- String slicing and indexing

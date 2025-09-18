@@ -1,6 +1,6 @@
 # List_practice Programs in Python
 
-This folder contains Python programs related to **List_Practice**.
+This folder contains Python exercises for working with lists.
 
 ## Programs
 - `operation_in_lists.py`
@@ -8,4 +8,7 @@ This folder contains Python programs related to **List_Practice**.
 - `tuple_to_dictionary.py`
 
 ## Topics Covered
-- Add explanation here manually
+- Adding, removing, and updating list elements  
+- List slicing and indexing  
+- Nested lists  
+- List comprehensions

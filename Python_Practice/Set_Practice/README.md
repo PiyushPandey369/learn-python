@@ -1,6 +1,6 @@
 # Set_practice Programs in Python
 
-This folder contains Python programs related to **Set_Practice**.
+This folder contains Python programs to practice set operations.
 
 ## Programs
 - `set_operation.py`
@@ -8,4 +8,7 @@ This folder contains Python programs related to **Set_Practice**.
 - `unique_set.py`
 
 ## Topics Covered
-- Add explanation here manually
+- Creating and modifying sets  
+- Set operations: union, intersection, difference  
+- Iterating through sets  
+- Removing duplicates using sets
