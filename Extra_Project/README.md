@@ -1,58 +1,97 @@
-<h2>Python Mini Projects Collection</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Mini Projects Collection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 900px;
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+        ul {
+            margin: 10px 0 20px 40px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
 
-Welcome to my Python Mini Projects repository! This collection demonstrates proficiency in object-oriented programming (OOP), magic methods, and practical problem solving using Python. These projects highlight clean code practices, encapsulation, and interactive user experiences.
+    <h1>Python Mini Projects Collection</h1>
 
-<h3>ATM Simulator</h3>
+    <p>Welcome to my <strong>Python Mini Projects</strong> repository! This collection demonstrates proficiency in <strong>object-oriented programming (OOP), magic methods, and practical problem solving</strong> using Python. These projects highlight <strong>clean code practices, encapsulation, and interactive user experiences</strong>.</p>
 
-<h4>Description:</h4>
-A menu-driven ATM simulation using Python classes.<br>
-It allows users to:
+    <div class="section">
+        <h2>1️⃣ ATM Simulator</h2>
+        <h3>Description</h3>
+        <p>A menu-driven ATM simulation using Python classes. It allows users to:</p>
+        <ul>
+            <li>Create a secure PIN</li>
+            <li>Deposit and withdraw cash</li>
+            <li>Check account balance</li>
+        </ul>
 
--Create a secure PIN<br>
--Deposit and withdraw cash<br>
--Check account balance<br>
+        <h3>Features</h3>
+        <ul>
+            <li>Unique serial numbers for each ATM instance</li>
+            <li>Encapsulation: private PIN and balance</li>
+            <li>Menu-driven user interface for ease of use</li>
+            <li>Input validation for PIN and transactions</li>
+        </ul>
+    </div>
 
-<h4>Features:</h4>
+    <div class="section">
+        <h2>2️⃣ Coordinate Geometry Tool</h2>
+        <h3>Description</h3>
+        <p>A Python class to represent points in a 2D plane and calculate:</p>
+        <ul>
+            <li>Slope between two points</li>
+            <li>Distance between two points</li>
+            <li>Equation of the line connecting two points</li>
+        </ul>
 
--Unique serial numbers for each ATM instance<br>
--Encapsulation: private PIN and balance<br>
--Menu-driven user interface for ease of use<br>
--Input validation for PIN and transactions<br>
+        <h3>Features</h3>
+        <ul>
+            <li>Object-oriented design</li>
+            <li>Handles vertical lines (slope is indeterminate)</li>
+            <li>Calculates Euclidean distance</li>
+            <li>Outputs line equation in standard form</li>
+        </ul>
+    </div>
 
-<h3>Coordinate Geometry Tool</h3>
+    <div class="section">
+        <h2>3️⃣ Fraction Class with Magic Methods</h2>
+        <h3>Description</h3>
+        <p>A Fraction class demonstrating <strong>operator overloading</strong> using Python magic methods (<code>__add__</code>, <code>__sub__</code>, <code>__mul__</code>, <code>__truediv__</code>). It supports arithmetic operations on fractions directly using <code>+</code>, <code>-</code>, <code>*</code>, and <code>/</code>.</p>
 
-<h4>Description</h4>:
-A Python class to represent points in a 2D plane and calculate:<br>
+        <h3>Features</h3>
+        <ul>
+            <li>Overloaded operators for addition, subtraction, multiplication, and division</li>
+            <li>String representation (<code>__str__</code>) for clean output</li>
+            <li>Can be extended to support fraction simplification</li>
+        </ul>
+    </div>
 
--Slope between two points<br>
--Distance between two points<br>
--Equation of the line connecting two points<br>
+    <div class="section">
+        <h2>Skills Demonstrated</h2>
+        <ul>
+            <li><strong>Python OOP:</strong> Classes, private variables, static methods, magic methods</li>
+            <li><strong>Problem Solving:</strong> Real-life ATM simulation, coordinate geometry calculations, fraction arithmetic</li>
+            <li><strong>User Interaction:</strong> Menu-driven interface for ATM project</li>
+            <li><strong>Clean Code Practices:</strong> Encapsulation, readable naming conventions, modular design</li>
+        </ul>
+    </div>
 
-<h4>Features</h4>
--Object-oriented design<br>
--Handles vertical lines (slope is indeterminate)<br>
--Calculates Euclidean distance<br>
-
-Outputs line equation in standard form<br>
-
-<h3>Fraction Class with Magic Methods</h3>
-
-<h4>Description</h4>
-A Fraction class demonstrating operator overloading using Python magic methods (__add__, __sub__, __mul__, __truediv__).<br>
-It supports arithmetic operations on fractions directly using +, -, *, and /.
-
-<h4>Features</h4>
-
--Overloaded operators for addition, subtraction, multiplication, and division<br>
--String representation (__str__) for clean output<br>
--Can be extended to support fraction simplification<br>
-
-<h4>Skills Demonstrated</h4>
-
-Python OOP: Classes, private variables, static methods, magic methods
-
-Problem Solving: Real-life ATM simulation, coordinate geometry calculations, fraction arithmetic
-
-User Interaction: Menu-driven interface for ATM project
-
-Clean Code Practices: Encapsulation, readable naming conventions, modular design
+</body>
+</html>
