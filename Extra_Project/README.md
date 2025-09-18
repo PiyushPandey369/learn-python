@@ -21,7 +21,7 @@ It allows users to:
 
 <h3>Coordinate Geometry Tool</h3>
 
-<h4>Description</h4>:
+<h4>Description</h4>
 A Python class to represent points in a 2D plane and calculate:<br>
 
 -Slope between two points<br>
