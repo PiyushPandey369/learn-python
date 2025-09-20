@@ -23,3 +23,7 @@ c=np.array([[
     ]
     )
 print(c)
+
+#Collection of homogenous (same type)
+d=np.array(["Piyush","Hemant"])
+print(type(d))
