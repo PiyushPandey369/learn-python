@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 # Dictionary mapping candidate IDs to their names
 candidate_dict = {
@@ -99,3 +100,27 @@ print(f"Overall maximum vote gained by {max_vote_party}: {max_vote}")
 
 # Seat allocation
 seat_calculation(vote_by_party, winner_list)
+
+
+# vote_by_party contains total votes per candidate
+vote_by_party_array = np.array(vote_by_party)
+
+'''
+# Define bins (for example: 0-500, 501-1000, 1001-1500, ...)
+bins = [0, 500, 1000, 1500, 2000, 2500, 3000]
+
+hist, bin_edges = np.histogram(vote_by_party_array, bins=bins)
+
+print("Histogram counts:", hist)
+print("Bin edges:", bin_edges)
+
+candidate_names = list(candidate_dict.values())
+
+plt.figure(figsize=(12, 6))
+plt.bar(candidate_names, vote_by_party, color='skyblue')
+plt.xlabel("Candidates")
+plt.ylabel("Total Votes")
+plt.title("Total Votes per Candidate")
+plt.xticks(rotation=10)  # Rotate names 
+plt.show()
+'''
