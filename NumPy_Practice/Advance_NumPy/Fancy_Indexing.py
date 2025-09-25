@@ -18,3 +18,4 @@ print(a[[1, 3, 4], 1:])
 
 # 4. Select rows 3, 4, 5 and columns with step = 3 (i.e., col 0 and col 3)
 print(a[[3, 4, 5], 0:4:3])
+
