@@ -12,17 +12,10 @@ catch_record = ipl[ipl["dismissal_kind"] == "caught"]
 obs_record = ipl[ipl["dismissal_kind"] == "obstructing the field"]
 
 # Create batting partnerships (unordered)
-ipl["pair"] = ipl.apply(
-    lambda row: tuple(sorted([row["batsman"], row["non_striker"]])),
-    axis=1
-)
+ipl["pair"] = ipl.apply(lambda row: tuple(sorted([row["batsman"], row["non_striker"]])),axis=1)
 
 # Calculate total runs for each partnership
-partnership = (
-    ipl.groupby("pair")["total_runs"]
-    .sum()
-    .sort_values(ascending=False)
-)
+partnership = ( ipl.groupby("pair")["total_runs"].sum().sort_values(ascending=False))
 
 
 # -------------------------------------------

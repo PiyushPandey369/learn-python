@@ -7,6 +7,7 @@ scores = pd.DataFrame(data, columns=['id', 'score']).astype({'id':'Int64', 'scor
 def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
     print(scores)
     scores['rank']=scores['score'].rank(method="dense",ascending=False)
+    print(scores)
     print(scores.sort_values('rank',inplace=True))
     scores=scores.drop(columns='id').reset_index(drop=True)
     return scores
