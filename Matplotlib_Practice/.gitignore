@@ -1,0 +1,14 @@
+# Ignore all files in myfolder
+myfolder/*
+.ipynb_checkpoints
+-a----         10/8/2025  12:16 PM             93 .gitignore
+-a----         10/8/2025   9:18 AM            135 batsman_season_record.csv
+-a----         10/8/2025   9:18 AM          24420 batter.csv
+-a----         10/8/2025   9:18 AM          95720 big-array.npy
+-a----         10/8/2025  12:11 PM          27063 example.png
+-a----         10/8/2025   9:18 AM            101 gayle-175.csv
+
+-a----         10/8/2025   9:18 AM            154 sharma-kohli.csv
+-a----         10/8/2025   9:18 AM            962 vk.csv
+# Allow only this file
+!myfolder/Intro_Matplotlib.ipynb
