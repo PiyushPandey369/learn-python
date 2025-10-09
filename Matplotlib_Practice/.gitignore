@@ -8,5 +8,15 @@ example.png
 gayle-175.csv
 sharma-kohli.csv
 vk.csv
+
+.ipynb_checkpoints
+.gitignore
+batsman_season_record.csv
+batter.csv
+example.png
+IPL_Ball_by_Ball_2008_2022.csv
+iris.csv
+
 # Allow only this file
+!myfolder/Extra_Matplotlib.ipynb.ipynb
 !myfolder/Intro_Matplotlib.ipynb
