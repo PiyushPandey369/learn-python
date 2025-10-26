@@ -31,7 +31,7 @@ To design a **data-driven dashboard** that provides actionable insights into:
 
 ##  Dashboard Preview
 
-![E-Commerce Dashboard](./Screenshot%202025-10-26%20230609.png)
+![E-Commerce Dashboard](./learn-python\learn-python\Project_BI\Dashboard_Image.png)
 
 **Dashboard Highlights:**
 - **KPIs:** Total Customers, Average Purchase Amount, and Average Review Rating.  
@@ -74,5 +74,5 @@ To design a **data-driven dashboard** that provides actionable insights into:
 3. Explore the interactive dashboard and insights.
 
 For data preprocessing or analysis steps, open the notebook:
-    ```bash
+```bash
     Shopping.ipynb
