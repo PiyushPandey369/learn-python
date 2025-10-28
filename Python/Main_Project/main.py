@@ -14,8 +14,8 @@ r = sr.Recognizer()#Creates a Recognizer object.
         
 engine = pyttsx3.init() #Returns an Engine object.
                         # This engine object can queue and play speech using methods like .say(text) and .runAndWait().
-newsapikey="4e6ee8eeea6b40cb9eeec13f5adf85c1"
-k_value=k.value
+newsapikey=k.value_news  #news_api_values
+k_value=k.value   #gemini_api_values
 genai.configure(api_key=f"{k_value}")
 model = genai.GenerativeModel('gemini-1.5-flash')
 # Function to speak text
