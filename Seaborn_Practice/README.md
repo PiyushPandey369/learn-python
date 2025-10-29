@@ -6,8 +6,8 @@ This Jupyter notebook provides a comprehensive introduction to Seaborn, a powerf
 ``` bash
 Seaborn_Practice/
 ├── Seaborn_Practice.ipynb          # Main practice notebook
-├── tips.csv                        # Dataset used for visualization examples
-└── README.md                       # This file
+├── README.md                       
+                  
 ```
 ## Topics Covered
 ### 1. Introduction to Seaborn
