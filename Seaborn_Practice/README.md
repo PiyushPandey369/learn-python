@@ -77,7 +77,7 @@ Seaborn_Practice/
 
 - Pair plots (pairplot())
 
-6. Practical Examples
+## 6. Practical Examples
 1) Working with the Titanic dataset
 
 2) Working with the Tips dataset
