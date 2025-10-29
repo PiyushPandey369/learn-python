@@ -31,8 +31,7 @@ To design a **data-driven dashboard** that provides actionable insights into:
 
 ##  Dashboard Preview
 
-![E-Commerce Dashboard](./learn-python\learn-python\Project_BI\Dashboard_Image.png)
-
+![E-Commerce Dashboard](https://github.com/PiyushPandey369/learn-python/blob/main/Project_BI/Dashboard_Image.png)
 **Dashboard Highlights:**
 - **KPIs:** Total Customers, Average Purchase Amount, and Average Review Rating.  
 - **Demographics:** Breakdown by gender, age group, and season.  
